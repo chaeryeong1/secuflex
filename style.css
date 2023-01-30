@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+html > body{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight:400;
+}
+
+.con{
+  width:auto;
+  height:auto;
+  margin:0 auto;
+   width:1280px;
+   height:auto;
+  margin:0 auto;
+
+}
+
+
+ui li{
+  list-style-type:none;
+}
+/*푸터바*/
+.footer>ui{
+  padding-left:90px;
+  padding-top:30px;
+  padding-bottom:30px;
+ 
+  align-content: center;
+  background-color:white;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.13);}
+
+.footer>ui>.footer-logo{
+  font-size:30px;
+  padding-right:150px;
+  font-weight:700;
+}
+.footer>ui>.footer-f1{
+  font-size:16px;
+  padding-top:10px;
+  padding-right:70px;
+}
+.footer>ui>.footer-f2{
+  font-size:16px;
+   padding-top:10px;
+  padding-right:70px;
+}
+.footer>ui>.footer-f3{
+  font-size:16px;
+   padding-top:10px;
+  padding-right:70px;
+}
+
+.box-1_1{
+  width:1280px;
+  height:655px;
+  
+   
+}
+
+.box-1_1>.text-1{
+display:absolute;
+font-size: 48px;
+font-weight: 700;
+top:171px;
+  left:100px;
+}
+
+.box-1_1>.text-2{
+position: absolute;
+top:361px;
+  left:100px;
+}
+.box-1_1>.img-1{
+  top:146px;
+  left:580px;
+}
+
+.box-1_1>.img-2{
+  top:655px;
+}
+.box-1_1>.img-3{
+  top:735px;
+  left:160px;
+}
+.box-1_1>.img-4{
+  top:771px;
+  left:614px;
+}
+.box-1_1>.img-5{
+  top:895px;
+  left:767px;
+}
+.box-1_1>.img-6{
+  top:1235px;
+  left:498px;
+}
+.box-1_1>.img-7{
+  top:1302px;
+  left:384px;
+}
+.box-1_1>.img-8{
+  top:1420px;
+  left:353px;
+}
+.box-1_1>.img-9{
+  top:1788px;
+  left:120px;
+}
+.box-1_1>.img-10{
+  top:1888px;
+  left:190px;
+}
+.box-1_1>.img-11{
+  top:2031px;
+  left:190px;
+}
+.box-1_1>.img-12{
+  top:2308px;
+  left:0px;
+}
+.box-1_1>.img-13{
+  top:2448px;
+  left:280px;
+}
+
+.box-1_1>.img-14{
+  top:2448px;
+  left:365px;
+}
+.box-1_1>.img-15{
+  top:2448px;
+  left:505px;
+}
+.box-1_1>.img-16{
+  top:2454px;
+  left:590px;
+}
