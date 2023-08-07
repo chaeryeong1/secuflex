@@ -1,111 +1,141 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>SECUFLEX</title>
-  <link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SECUFLEX</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <head>
+      <!--이미지로드-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+      <!-- 제이쿼리 -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<head>
-  <!--이미지로드-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-  <!-- 제이쿼리 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <!-- 폰트어썸 -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      />
 
-  <!-- 폰트어썸 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <!-- 테일윈드 -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      />
 
-  <!-- 테일윈드 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+      <!--애니메이션,와우-->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css"
+      />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      <!--스와이퍼-->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css"
+      />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
 
-  <!--애니메이션,와우-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <!--스와이퍼-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
-  
-  <script>new WOW().init();</script>
+      <script>
+        new WOW().init();
+      </script>
+    </head>
+    <div class="con relative">
+      <div class="box-1">
+        <div class="footer">
+          <ul class="flex">
+            <li class="footer-logo">
+              <a href="http://secuflex.co.kr"
+                ><img src="img\Group 2.png" alt=""
+              /></a>
+            </li>
+            <li class="footer-f1">
+              <a href="https://chaeryeong1.github.io/secu-2"> 회사소개</a>
+            </li>
+            <li class="footer-f2">
+              <a href="https://chaeryeong1.github.io/secu-3">제품소개</a>
+            </li>
+            <li class="footer-f3"><a href="#">제품다운로드</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="box-1_1 relative">
+        <div class="text-1 absolute wow fadeInDown" data-wow-delay="0s">
+          우리 회사 보안,<br />PC보안백업 하나로 끝!
+        </div>
+        <div class="text-2 absolute wow fadeInDown" data-wow-delay="0.3s">
+          PC보안백업(PC-SECURITY) 는 독보적인<br />
+          보안 협업 관리 기능으로 2차 해킹 공격을 사전에<br />
+          방지하고, 공동 작업 및 백업 데이터를 효율적으로<br />
+          보호합니다.
+        </div>
+        <div class="img-1 absolute wow fadeInDown" data-wow-delay="0.5s">
+          <img src="img\1.png" alt="" />
+        </div>
+        <div class="img-2 absolute">
+          <img src="img\bg-1.png" alt="" />
+        </div>
+        <div class="img-3 absolute wow fadeInDown" data-wow-delay="1s">
+          <img src="img\2.png" alt="" />
+        </div>
+        <div class="img-4 absolute wow fadeInDown" data-wow-delay="1.3s">
+          <img src="img\3.png" alt="" />
+        </div>
+        <div class="img-5 absolute wow fadeInDown" data-wow-delay="0.5s">
+          <img src="img\4.png" alt="" />
+        </div>
+        <div class="img-6 absolute wow fadeInDown" data-wow-delay="0.5s">
+          <img src="img\검증된 성능과 품질.png" alt="" />
+        </div>
+        <div class="img-7 absolute wow fadeInDown" data-wow-delay="0.5s">
+          <img src="img\5.png" alt="" />
+        </div>
+        <div class="img-8 absolute wow fadeInDown" data-wow-delay="0.4s">
+          <img src="img\undraw_shared_workspace_re_3gsu.png" alt="" />
+        </div>
 
-</head>
-<div class="con relative">
-  
-  <div class="box-1">
-    <div class="footer">
-      <ui class="flex">
-         <li class="footer-logo"><a href="http://secuflex.co.kr"><img src="img\Group 2.png" alt=""></a></li>
-        <li class="footer-f1">
-          <a href="https://chaeryeong1.github.io/secu-2">
-          회사소개</a></li>
-        <li class="footer-f2"><a href="https://chaeryeong1.github.io/secu-3">제품소개</a></li>
-        <li class="footer-f3"><a href="#">제품다운로드</a></li>
-      </ui>
+        <div class="img-9 absolute wow fadeIn" data-wow-delay="0.5s">
+          <img src="img\Group 25566.png" alt="" />
+        </div>
+        <div class="img-10 absolute wow fadeInDown" data-wow-delay="0.7s">
+          <img src="img\13.png" alt="" />
+        </div>
+        <div class="img-11 absolute wow fadeInUp" data-wow-delay="1s">
+          <a
+            href="https://shocking-yoke-bf3.notion.site/252e607c962a45449eedb2fe520f0cb9"
+            ><img src="img\Group 268.png" alt=""
+          /></a>
+        </div>
+        <div class="img-12 absolute">
+          <img src="img2\footer-1.png" alt="" />
+        </div>
+        <div class="img-13 absolute">
+          <a href="https://to2.kr/efY"
+            ><img src="img2\Group 25568.png" alt=""
+          /></a>
+        </div>
+        <div class="img-14 absolute">
+          <a
+            href="https://shocking-yoke-bf3.notion.site/a4c6092e7ddb4a2b8d7c5bbea4ed105f"
+            ><img src="img2\Group 25569.png" alt=""
+          /></a>
+        </div>
+        <div class="img-15 absolute">
+          <a
+            href="https://shocking-yoke-bf3.notion.site/252e607c962a45449eedb2fe520f0cb9"
+            ><img src="img2\Group 25570.png" alt=""
+          /></a>
+        </div>
+        <div class="img-16 absolute">
+          <img
+            src="img2\COPYRIGHT 2023 SECUFLEX.CO., LTD. ALL RIGHTS RESERVED..png"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="box-1_1 relative">
-      <div class="text-1 absolute wow fadeInDown " data-wow-delay="0s">
-        보안,<br>PC보안백업 하나로 끝!
-      </div>
-      <div class="text-2 absolute wow fadeInDown " data-wow-delay="0.3s">
-        PC보안백업(PC-SECURITY) 는 독보적인<br>
-        보안 협업 관리 기능으로 2차 해킹 공격을 사전에<br>
-        방지하고, 공동 작업 및 백업 데이터를 효율적으로<br>
-        보호합니다.
-      </div>
-      <div class="img-1 absolute wow fadeInDown " data-wow-delay="0.5s">
-        <img src="img\MacBook Pro 16.png" alt="">
-      </div>
-      <div class="img-2 absolute">
-        <img src="img\bg-1.png" alt="">
-      </div>
-      <div class="img-3 absolute wow fadeInDown " data-wow-delay="1s">
-        <img src="img\Group 265 1.png" alt="">
-      </div>
-      <div class="img-4 absolute wow fadeInDown " data-wow-delay="1.3s">
-        <img src="img\많은 중소기업과 함께하고 있는 PC보안백업과 보안의 틀을 잡아보세요..png" alt="">
-      </div>
-      <div class="img-5 absolute wow fadeInDown " data-wow-delay="0.5s">
-        <img src="img\보안담당자 없이 스타트업이나 중소기업에서 통합적인 PC보안대책을 만들기 어려우시죠_ 걱정 마세요! PC보안백업이 도와드립니다..png" alt="">
-      </div>
-      <div class="img-6 absolute wow fadeInDown " data-wow-delay="0.5s">
-        <img src="img\검증된 성능과 품질.png" alt="">
-      </div>
-      <div class="img-7 absolute wow fadeInDown " data-wow-delay="0.5s">
-        <img src="img\이미 300기업 이상의 중소기업에서 시큐플렉스의 PC보안백업을 사용하고 있습니다..png" alt="">
-      </div>
-      <div class="img-8 absolute wow fadeInDown " data-wow-delay="0.4s">
-        <img src="img\undraw_shared_workspace_re_3gsu.png" alt="">
-      </div>
-      
-      <div class="img-9 absolute wow fadeIn " data-wow-delay="0.5s">
-        <img src="img\Group 25566.png" alt="">
-      </div>
-      <div class="img-10 absolute wow fadeInDown " data-wow-delay="0.7s">
-        <img src="img\13.png" alt="">
-      </div>
-      <div class="img-11 absolute wow fadeInUp " data-wow-delay="1s">
-        <a href="https://shocking-yoke-bf3.notion.site/252e607c962a45449eedb2fe520f0cb9"><img src="img\Group 268.png" alt=""></a>
-      </div>
-      <div class="img-12 absolute">
-        <img src="img2\footer-1.png" alt="">
-      </div>
-      <div class="img-13 absolute">
-        <a href="https://to2.kr/efY"><img src="img2\Group 25568.png" alt=""></a>
-      </div>
-      <div class="img-14 absolute">
-        <a href="https://shocking-yoke-bf3.notion.site/a4c6092e7ddb4a2b8d7c5bbea4ed105f"><img src="img2\Group 25569.png" alt=""></a>
-      </div>
-      <div class="img-15 absolute">
-        <a href="https://shocking-yoke-bf3.notion.site/252e607c962a45449eedb2fe520f0cb9"><img src="img2\Group 25570.png" alt=""></a>
-      </div>
-      <div class="img-16 absolute">
-        <img src="img2\COPYRIGHT 2023 SECUFLEX.CO., LTD. ALL RIGHTS RESERVED..png" alt="">
-      </div>
-    </div>
-</div>
-<!-- partial -->
-  
-</body>
+    <!-- partial -->
+  </body>
 </html>
